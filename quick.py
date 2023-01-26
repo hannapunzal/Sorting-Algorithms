@@ -25,3 +25,16 @@ def quick(array, low, high):
         quick(array, low, pi - 1)
 
         quick(array, pi + 1, high)
+
+data = [81,13,29,57,86,56,44,83,78,53]
+print('-----------------------------------------------')
+print()
+print("--> Given data: [81,13,29,57,86,56,44,83,78,53]")
+print()
+size = len(data)
+quick(data, 0, size -1)
+print("-----------------------------------------------")
+print()
+print(f"---> Sorted data through quick sorting algorithm:\n{data}")
+print()
+print("-----------------------------------------------")

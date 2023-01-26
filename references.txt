@@ -1,0 +1,22 @@
+sorting algorithms:
+selection
+bubble
+insertion
+merge
+quick
+
+given data = [81,13,29,57,86,56,44,83,78,53]
+
+references:
+	https://www.programiz.com/dsa/sorting-algorithm
+
+	selection:
+		https://www.youtube.com/watch?v=Z3dCjzhjAWA
+	bubble:
+		https://www.youtube.com/watch?v=A6m-g0SPzt0
+	insertion:
+		https://www.youtube.com/watch?v=qJsmUw3-QRA
+	merge:
+		https://www.youtube.com/watch?v=Axva2VdsXkk
+	quick:
+		https://www.youtube.com/watch?v=JS524MqKM0Q

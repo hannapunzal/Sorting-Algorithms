@@ -14,6 +14,18 @@ def bubble(array):
                 array[j] = array[j + 1]
                 array[j+1] = temp
 
+data = [81,13,29,57,86,56,44,83,78,53]
+bubble(data)
+print('-----------------------------------------------')
+print()
+print("--> Given data: [81,13,29,57,86,56,44,83,78,53]")
+print()
+print("-----------------------------------------------")
+print()
+print(f"---> Sorted data through bubble algorithm:\n{data}")
+print()
+print("-----------------------------------------------")
+
 
 
 

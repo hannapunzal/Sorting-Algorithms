@@ -12,3 +12,16 @@ def selection(array,size):
                 min_idx = i
 
         (array[step], array[min_idx]) = (array[min_idx], array[step]) #putting the array into the correct structure
+
+data = [81,13,29,57,86,56,44,83,78,53]
+size = len(data)
+selection(data, size)
+print('-----------------------------------------------')
+print()
+print("--> Given data: [81,13,29,57,86,56,44,83,78,53]")
+print()
+print("-----------------------------------------------")
+print()
+print(f"---> Sorted data through selection:\n{data}")
+print()
+print("-----------------------------------------------")

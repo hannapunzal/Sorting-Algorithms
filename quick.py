@@ -17,3 +17,11 @@ def partition(array, low, high):
     (array[i + 1], array[high]) = (array[high], array[i + 1])
 
     return i + 1
+
+def quick(array, low, high):
+    if low < high:
+        pi = partition(array, low, high)
+
+        quick(array, low, pi - 1)
+
+        quick(array, pi + 1, high)

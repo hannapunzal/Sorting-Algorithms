@@ -10,3 +10,5 @@ def selection(array,size):
         for i in range(step + 1, size):
             if array[i] < array[min_idx]: # choosing the minimum element in every loop
                 min_idx = i
+
+        (array[step], array[min_idx]) = (array[min_idx], array[step]) #putting the array into the correct structure
